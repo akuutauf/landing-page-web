@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+
+/* root */
+:root {
+  --primaryText: #4aa8c9;
+  --buttonColor: #4ba1b9;
+  --buttonColorTwo: #2a3b71;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-image: url(../img/background.svg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: 40vmax;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  min-height: 700px;
+}
+
+.custom-nav #navbarNav ul li a {
+  color: var(--primaryText);
+  font-weight: 500;
+  margin-left: 2.2em;
+  transition: 0.5 color ease;
+}
+
+.custom-nav #navbarNav ul li a:hover {
+  background-color: transparent;
+  color: var(--buttonColorTwo);
+}
+
+.custom-btn {
+  background-color: var(--buttonColorTwo);
+  color: white;
+  border-radius: 5em !important;
+  transition: 0.3s color ease;
+  border: 1px solid transparent;
+}
+
+.custom-btn:hover {
+  background-color: transparent;
+  color: var(--buttonColorTwo) !important;
+  border-radius: 5em !important;
+  border: 1px solid var(--buttonColorTwo);
+}
+
+.title {
+  font-size: 4em;
+  font-weight: 700;
+  color: var(--buttonColorTwo);
+}
+
+.sub-title {
+  color: var(--primaryText);
+  font-size: 1.8em;
+}
+
+.custom-paragraph {
+  color: var(--primaryText);
+  font-weight: 400;
+}
+
+.btn-learn-more {
+  background-color: var(--buttonColor);
+  color: white;
+  border-radius: 5em !important;
+  transition: 0.3s color ease;
+  border: 1px solid transparent;
+}
+
+.btn-learn-more:hover {
+  background-color: transparent;
+  color: var(--buttonColor);
+  border-radius: 5em !important;
+  border: 1px solid var(--buttonColor);
+}
+
+.custom-row {
+  color: var(--buttonColorTwo);
+}
+
+.custom-icon ul li {
+  list-style-type: none;
+  float: left;
+  margin-left: 1.4em;
+}
